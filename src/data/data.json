@@ -1,0 +1,65 @@
+[{
+  "type": "text",
+  "required": true,
+  "label": "User Name",
+  "className": "form-control",
+  "name": "text-1558421438751",
+  "subtype": "text"
+}, {
+  "type": "text",
+  "subtype": "password",
+  "required": true,
+  "label": "Password",
+  "className": "form-control",
+  "name": "text-1558421477780"
+}, {
+  "type": "text",
+  "subtype": "email",
+  "required": true,
+  "label": "Email",
+  "className": "form-control",
+  "name": "text-1558421492744"
+}, {
+  "type": "select",
+  "label": "Gender",
+  "className": "form-control",
+  "name": "select-1558421554950",
+  "values": [{
+    "label": "Male",
+    "value": "male",
+    "selected": true
+  }, {
+    "label": "Female",
+    "value": "female"
+  }]
+}, {
+  "type": "date",
+  "label": "Date of Birth",
+  "className": "form-control",
+  "name": "date-1558421606243"
+}, {
+  "type": "radio-group",
+  "label": "Marital Status",
+  "name": "radio-group-1558421657915",
+  "values": [{
+    "label": "Single",
+    "value": 0
+  }, {
+    "label": "Married",
+    "value": 1,
+    "selected": true
+  }, {
+    "label": "Widowed",
+    "value": 2
+  }, {
+    "label": "Divorced",
+    "value": 3
+  }]
+}, {
+  "type": "button",
+  "subtype": "submit",
+  "label": "Save",
+  "className": "btn-success btn",
+  "name": "button-1558421848040",
+  "style": "success"
+}]
